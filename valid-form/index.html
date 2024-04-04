@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN FORM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="login_form" action="home.html" method="post" name="form" onsubmit="return validated()">
+        <h1>LOGIN</h1>
+        <label class="font">Username or email</label>
+        <input autocomplete="off" type="text" name="email">
+        <div id="email_error">please fill up your Username or email</div>
+        <label class="font font2">Password</label>
+        <input type="password" name="password">
+        <div id="pass_error">please fill up your password</div>
+        <button>Login</button> 
+        <a>Forget Password?</a>
+    </form>
+    <script src="valid.js"></script>
+    
+</body>
+</html>
